@@ -182,6 +182,8 @@ ul.nav>li>a:hover {
         padding: 20px 17px;
         border-radius: 50px;
         margin-top: 20px;
+        position: absolute;
+        right: 0;
     }
     .navbar-default {
         display: block;
