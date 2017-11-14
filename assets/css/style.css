@@ -43,7 +43,7 @@ body {
     width: 100%;
     height: 40px;
     background: #e1e1e1;
-    border-bottom: 1px solid #807C7F;
+    /* border-bottom: 1px solid #807C7F; */
 }
 .topo .redes-sociais {
     float: right;
@@ -166,6 +166,67 @@ ul.nav>li>a:hover {
     font-weight: bold;
 }
 
+.carros {
+    padding: 80px 0;
+}
+.carros img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.carros .item {
+    border: 1px solid #e1e1e1;
+    height: 450px;
+}
+.carros .content {
+    padding: 0 20px;
+}
+.carros .content h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #807C7F;
+}
+.carros .content p {
+    font-size: 14px;
+    color: #807C7F;
+    margin-bottom: 0;
+}
+.carros .botao {
+    color: #fff;
+    display: table;
+    margin: 30px auto 0;
+}
+.carros .owl-carousel {
+    padding: 0 40px;
+}
+.carros .owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 42%;
+    margin-left: -30px;
+    display: block!important;
+    border: 0px solid black;
+}
+.carros .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 42%;
+    right: 0;
+    display: block!important;
+    border: 0px solid black;
+}
+.carros .owl-prev i,
+.carros .owl-next i {
+    transform: scale(5,5);
+    color: #fd0100;
+}
+.carros .owl-prev i:hover,
+.carros .owl-next i:hover {
+    color: #e1e1e1;
+}
+
 
 
 
@@ -251,6 +312,12 @@ ul.nav>li>a:hover {
         font-size: 15px;
         padding: 5px 40px;
         margin-top: 20px;
+    }
+    .carros .owl-carousel {
+        padding: 0;
+    }
+    .carros .owl-nav {
+        display: none;
     }
 }
 @media (min-width: 768px) and (max-width: 980px) {
