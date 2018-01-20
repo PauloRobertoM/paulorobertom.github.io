@@ -39,4 +39,45 @@
         $('#myTooltip').tooltip();
         $('#myTooltip2').tooltip();
     });
+    $('#datepairExample1 .date').datepicker({
+        'format': 'd/m/yyyy',
+        'autoclose': true
+    });
+    $('#datepairExample2 .date').datepicker({
+        'format': 'd/m/yyyy',
+        'autoclose': true
+    });
+    $( "#retirada" ).click(function() {
+        $( "#barra-local1" ).fadeIn( "slow", function() {
+
+        });
+        $( "#barra-local2" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#barra-local3" ).fadeOut( "slow", function() {
+            
+        });
+    });
+    $( "#devolucao" ).click(function() {
+        $( "#barra-local1" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#barra-local2" ).fadeIn( "slow", function() {
+            
+        });
+        $( "#barra-local3" ).fadeOut( "slow", function() {
+            
+        });
+    });
+    $( "#dados" ).click(function() {
+        $( "#barra-local1" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#barra-local2" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#barra-local3" ).fadeIn( "slow", function() {
+            
+        });
+    });
 })(jQuery, window);
