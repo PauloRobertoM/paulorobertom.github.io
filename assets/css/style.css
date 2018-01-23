@@ -206,10 +206,6 @@ button.navbar-toggle:before {
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: transparent;
 }
-/*ul.menu {
-    margin-top: 80px;
-    margin-right: 60px;
-}*/
 ul.menu>li {
     margin-bottom: -5px;
 }
@@ -234,61 +230,23 @@ ul.menu>li>a.active {
     height: 110px;
     background: #fd0100;
     position: relative;
-}
-.barra-pesquisa form {
-    width: 100%;
-    height: 110px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.barra-pesquisa .item {
-    width: 20%;
-    height: 60px;
-    float: left;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid #e1e1e1;
-}
-.barra-pesquisa .item:last-child {
-    border-right: none;
-}
-.barra-pesquisa select {
-    font-size: 15px;
-    color: #e1e1e1;
-    background: transparent;
-    border: 1px solid #e1e1e1;
-    border-radius: 5px;
-    padding: 5px;
-}
-.barra-pesquisa select option {
-    color: #000;
 }
 .barra-pesquisa a {
-    font-size: 15px;
+    font-size: 25px;
     color: #e1e1e1;
     text-transform: uppercase;
     border: 1px solid #e1e1e1;
     padding: 5px 10px;
 }
+.barra-pesquisa a span {
+    font-weight: bold;
+}
 .barra-pesquisa a:hover {
     background: #e1e1e1;
     color: #fd0100;
-}
-.hvr-underline-from-center:before {
-    background: #e1e1e1;
-    height: 2px;
-}
-.barra-pesquisa .item button {
-    margin-top: 0;
-    background: #e1e1e1;
-    color: #fd0100;
-    border: 1px solid #e1e1e1;
-}
-.barra-pesquisa .item button:hover {
-    background: #fd0100;
-    color: #e1e1e1;
 }
 
 .modal img {
@@ -313,6 +271,81 @@ ul.menu>li>a.active {
     color: #807C7F;
     margin-bottom: 0;
 }
+.modal-body {
+    padding: 50px 30px;
+}
+.modal .modal-content {
+    background-color: #e1e1e1;
+}
+.modal .modal-title {
+    font-size: 24px;
+    color: #807C7F;
+    text-align: center;
+}
+.modal .modal-header {
+    padding: 10px 15px;
+    border-bottom: 1px solid #fd0100;
+}
+#item2,
+#item3,
+#item4 {
+    display: none;
+}
+.modal input {
+    font-size: 18px;
+    color: #fd0100;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #fd0100;
+    border-radius: 5px;
+    padding: 3px;
+    width: 100%;
+}
+.modal input::-webkit-input-placeholder {
+   font-size: 18px;
+   color: #fd0100;
+}
+.modal input:-moz-placeholder {
+   font-size: 18px;
+   color: #fd0100;
+}
+.modal input::-moz-placeholder {
+   font-size: 18px;
+   color: #fd0100;
+}
+.modal input:-ms-input-placeholder {
+   font-size: 18px;
+   color: #fd0100;
+}
+.modal select {
+    font-size: 15px;
+    color: #fd0100;
+    background: transparent;
+    border: 1px solid #fd0100;
+    border-radius: 5px;
+    padding: 5px;
+    width: 45%;
+    float: right;
+}
+.modal select option {
+    color: #000;
+}
+.modal button {
+    color: #fd0100;
+    opacity: 1;
+}
+.modal button:hover {
+    opacity: .6;
+}
+.modal .botao {
+    font-size: 18px;
+    padding: 5px 40px;
+}
+#datepairExample1,
+#datepairExample2 {
+    width: 45%;
+    float: left;
+}
 
 
 
@@ -336,61 +369,7 @@ ul.menu>li>a.active {
     position: relative;
     z-index: 100;
 }
-#barra-local3 .barra-local {
-    padding: 0 10px;
-}
-#barra-local3 .barra-local input {
-    color: #e1e1e1;
-    margin: 0 5px;
-    text-align: center;
-    background: transparent;
-    border: 1px solid #e1e1e1;
-}
-#barra-local3 .barra-local input::-webkit-input-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#barra-local3 .barra-local input:-moz-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#barra-local3 .barra-local input::-moz-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#barra-local3 .barra-local input:-ms-input-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#datepairExample1 input,
-#datepairExample2 input {
-    font-size: 18px;
-    color: #e1e1e1;
-    text-align: center;
-    background: transparent;
-    border: 1px solid #e1e1e1;
-    border-radius: 5px;
-}
-#datepairExample1 input::-webkit-input-placeholder,
-#datepairExample2 input::-webkit-input-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#datepairExample1 input:-moz-placeholder,
-#datepairExample2 input:-moz-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#datepairExample1 input::-moz-placeholder,
-#datepairExample2 input::-moz-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
-#datepairExample1 input:-ms-input-placeholder,
-#datepairExample2 input:-ms-input-placeholder {
-   font-size: 18px;
-   color: #e1e1e1;
-}
+
 
 .vitrine img {
     width: 65%!important;

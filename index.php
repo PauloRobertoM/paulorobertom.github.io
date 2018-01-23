@@ -3,18 +3,19 @@
     <section class="reserva" id="anc-reserva">
         <div class="barra-pesquisa">
             <form action="" id="formContato" accept-charset="utf-8" method="post">
-                <div class="item">
-                    <a href="#" id="retirada" class="hvr-underline-from-center" data-toggle="modal" data-target="#myModal">Dados de Retirada</a>
+                <a href="#" data-toggle="modal" data-target="#myModal">Clique aqui e solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Dados de Retirada</h4>
-                                </div>
-                                <div class="modal-body">
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Dados de Retirada</h4>
+                            </div>
+                            <div class="modal-body">
+
+                                <div id="item1">
                                     <div id="datepairExample1">
                                         <input type="text" name="data_retirada" class="date" placeholder="Data de retirada" />
                                     </div><!-- #datepairExample -->
@@ -69,23 +70,10 @@
                                         <option value="23:00h">23:00h</option>
                                         <option value="23:30h">23:30h</option>
                                     </select>
-                                </div><!-- modal-body -->
-                            </div><!-- modal-content -->
-                        </div><!-- modal-dialog -->
-                    </div><!-- modal -->
-                </div><!-- item -->
-                <div class="item">
-                    <a href="#" id="devolucao" class="hvr-underline-from-center" data-toggle="modal" data-target="#myModal2">Dados de Devolução</a>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Dados de Devolução</h4>
-                                </div>
-                                <div class="modal-body">
+                                    <a class="botao" id="proximo2" href="#">Próximo</a>
+                                </div><!-- #item1 -->
+                                <div id="item2">
                                     <div id="datepairExample2">
                                         <input type="text" name="data_devolucao" class="date" placeholder="Data de Devolução" />
                                     </div><!-- #datepairExample -->
@@ -140,43 +128,13 @@
                                         <option value="23:00h">23:00h</option>
                                         <option value="23:30h">23:30h</option>
                                     </select>
-                                </div><!-- modal-body -->
-                            </div><!-- modal-content -->
-                        </div><!-- modal-dialog -->
-                    </div><!-- modal -->
-                </div><!-- item -->
-                <div class="item">
-                    <a href="#" id="dados" data-toggle="modal" data-target="#myModal3">Dados Pessoais</a>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Dados Pessoais</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <input type="text" name="nome" class="form-control" id="exampleInputAmount" placeholder="Seu nome" required>
-                                    <input type="text" name="email" class="form-control" id="exampleInputAmount" placeholder="Seu e-mail" required>
-                                    <input type="text" name="telefone" class="form-control" id="exampleInputAmount" placeholder="Seu telefone" required>
-                                </div><!-- modal-body -->
-                            </div><!-- modal-content -->
-                        </div><!-- modal-dialog -->
-                    </div><!-- modal -->
-                </div><!-- item -->
-                <div class="item">
-                    <a href="#" id="dados" data-toggle="modal" data-target="#myModal4">Escolha seu Carro</a>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Escolha seu Carro</h4>
-                                </div>
-                                <div class="modal-body">
+                                </div><!-- #item2 -->
+                                <div id="item3">
+                                    <input type="text" name="nome" class="form-control" placeholder="Seu nome" required>
+                                    <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
+                                    <input type="number" name="telefone" class="form-control" placeholder="Seu telefone" required>
+                                </div><!-- #item3 -->
+                                <div id="item4">
                                     <div class="item-interno">
                                         <img src="assets/images/vitrine.jpg" alt="">
                                         <div class="content">
@@ -186,15 +144,12 @@
                                             <p><span>Dia:</span> R$ Valor</p>
                                             <p>Informações adicionais...</p>
                                         </div><!-- content -->
-                                    </div><!-- .item -->
-                                </div><!-- modal-body -->
-                            </div><!-- modal-content -->
-                        </div><!-- modal-dialog -->
-                    </div><!-- modal -->
-                </div><!-- item -->
-                <div class="item">
-                    <button class="botao">Solicitar Reserva</button>
-                </div><!-- item -->
+                                    </div><!-- .item-interno -->
+                                </div><!-- #item4 -->
+                            </div><!-- modal-body -->
+                        </div><!-- modal-content -->
+                    </div><!-- modal-dialog -->
+                </div><!-- modal -->
             </form>
         </div><!-- barra-pesquisa -->
     </section><!-- reserva -->

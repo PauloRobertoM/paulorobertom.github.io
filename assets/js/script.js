@@ -47,36 +47,88 @@
         'format': 'd/m/yyyy',
         'autoclose': true
     });
-    $( "#retirada" ).click(function() {
-        $( "#barra-local1" ).fadeIn( "slow", function() {
+    $( "#proximo2" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {
 
         });
-        $( "#barra-local2" ).fadeOut( "slow", function() {
+        $( "#item2" ).fadeIn( "slow", function() {
             
         });
-        $( "#barra-local3" ).fadeOut( "slow", function() {
+        $( "#item3" ).fadeOut( "slow", function() {
             
         });
-    });
-    $( "#devolucao" ).click(function() {
-        $( "#barra-local1" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#barra-local2" ).fadeIn( "slow", function() {
-            
-        });
-        $( "#barra-local3" ).fadeOut( "slow", function() {
+        $( "#item4" ).fadeOut( "slow", function() {
             
         });
     });
-    $( "#dados" ).click(function() {
-        $( "#barra-local1" ).fadeOut( "slow", function() {
+    $( "#proximo3" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {
+
+        });
+        $( "#item2" ).fadeOut( "slow", function() {
             
         });
-        $( "#barra-local2" ).fadeOut( "slow", function() {
+        $( "#item3" ).fadeIn( "slow", function() {
             
         });
-        $( "#barra-local3" ).fadeIn( "slow", function() {
+        $( "#item4" ).fadeOut( "slow", function() {
+            
+        });
+    });
+    $( "#proximo4" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {
+
+        });
+        $( "#item2" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#item3" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#item4" ).fadeIn( "slow", function() {
+            
+        });
+    });
+
+    $( "#anterior3" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {
+
+        });
+        $( "#item2" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#item3" ).fadeIn( "slow", function() {
+            
+        });
+        $( "#item4" ).fadeOut( "slow", function() {
+            
+        });
+    });
+    $( "#anterior2" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {
+
+        });
+        $( "#item2" ).fadeIn( "slow", function() {
+            
+        });
+        $( "#item3" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#item4" ).fadeOut( "slow", function() {
+            
+        });
+    });
+    $( "#anterior1" ).click(function() {
+        $( "#item1" ).fadeIn( "slow", function() {
+
+        });
+        $( "#item2" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#item3" ).fadeOut( "slow", function() {
+            
+        });
+        $( "#item4" ).fadeOut( "slow", function() {
             
         });
     });
