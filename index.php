@@ -70,8 +70,10 @@
                                         <option value="23:00h">23:00h</option>
                                         <option value="23:30h">23:30h</option>
                                     </select>
-
-                                    <a class="botao" id="proximo2" href="#">Próximo</a>
+                                    
+                                    <div class="link-botao">
+                                        <a class="botao" id="proximo2" href="#">Próximo</a>
+                                    </div><!-- link-botao -->
                                 </div><!-- #item1 -->
                                 <div id="item2">
                                     <div id="datepairExample2">
@@ -128,11 +130,21 @@
                                         <option value="23:00h">23:00h</option>
                                         <option value="23:30h">23:30h</option>
                                     </select>
+                                    
+                                    <div class="link-botao">
+                                        <a class="botao anterior" id="anterior1" href="#">Anterior</a>
+                                        <a class="botao" id="proximo3" href="#">Próximo</a>
+                                    </div><!-- link-botao -->
                                 </div><!-- #item2 -->
                                 <div id="item3">
                                     <input type="text" name="nome" class="form-control" placeholder="Seu nome" required>
                                     <input type="email" name="email" class="form-control" placeholder="Seu e-mail" required>
                                     <input type="number" name="telefone" class="form-control" placeholder="Seu telefone" required>
+                                    
+                                    <div class="link-botao">
+                                        <a class="botao anterior" id="anterior2" href="#">Anterior</a>
+                                        <a class="botao" id="proximo4" href="#">Próximo</a>
+                                    </div><!-- link-botao -->                                    
                                 </div><!-- #item3 -->
                                 <div id="item4">
                                     <div class="item-interno">
@@ -145,6 +157,14 @@
                                             <p>Informações adicionais...</p>
                                         </div><!-- content -->
                                     </div><!-- .item-interno -->
+
+                                    <input type="radio" name="gender" value="male"> Orçamento<br>
+                                    <input type="radio" name="gender" value="female"> Reserva<br>
+                                    
+                                    <div class="link-botao">
+                                        <a class="botao anterior" id="anterior3" href="#">Anterior</a>
+                                        <button class="botao">Solicitar</button>
+                                    </div><!-- link-botao -->
                                 </div><!-- #item4 -->
                             </div><!-- modal-body -->
                         </div><!-- modal-content -->

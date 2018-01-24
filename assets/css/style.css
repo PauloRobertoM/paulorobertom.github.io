@@ -90,54 +90,6 @@ header {
     z-index: 2;
 }
 
-/*.navbar-default {
-    background: transparent;
-    border-color: transparent;
-    height: 150px;
-    border-radius: 0;
-    border: none;
-    margin-bottom: 0;
-    padding-top: 25px;
-}
-.navbar-brand {
-    margin: 0;
-    padding: 0;
-}
-.navbar-header img {
-    width: 250px;
-    margin: 0 auto;
-}
-ul.nav {
-    width: 38%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
-}
-ul.nav>li>a {
-    font-size: 16px;
-    color: #807C7F!important;
-    text-transform: uppercase;
-    padding: 10px 0;
-}
-ul.nav>li>a:hover {
-    color: #fd0100!important;
-    font-weight: bold;
-}
-.navbar-brand-centered {
-    position: absolute;
-    left: 45%;
-    width: 250px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-.navbar>.container .navbar-brand-centered, 
-.navbar>.container-fluid .navbar-brand-centered {
-    margin-left: -80px;
-}*/
-/* NAV */
 .navbar-toggle {
     display: block;
 }
@@ -345,6 +297,9 @@ ul.menu>li>a.active {
 #datepairExample2 {
     width: 45%;
     float: left;
+}
+.link-botao {
+    text-align: right;
 }
 
 
