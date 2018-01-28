@@ -177,29 +177,27 @@
 	<section class="vitrine">
 		<div class="owl-carousel owl-theme" id="owl-vitrine">
             <div class="item">
-                <img src="assets/images/vitrine.jpg" alt="">
+                <img src="assets/images/carros/celta_branco.jpg" alt="">
                 <div class="content">
-                	<h2>Celta/Pálio ou Similar Motorização 1.0</h2>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p>Informações adicionais...</p>
+                	<h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
 
-                	<a href="#anc-reserva" class="botao">Solicitar Reserva</a>
+                	<a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
             <div class="item">
-                <img src="assets/images/vitrine2.jpg" alt="">
+                <img src="assets/images/carros/gol_branco.jpg" alt="">
                 <div class="content">
-                	<h2>Parati/Palio Weekend ou Similar</h2>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p><span>Dia:</span> R$ Valor</p>
-                	<p>Informações adicionais...</p>
+                    <h2>Grupo B: Flex, 4 portas, ar-condicionado, direção hidráulica, 1.0</h2>
 
-                	<a href="#anc-reserva" class="botao">Solicitar Reserva</a>
+                    <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                </div><!-- content -->
+            </div><!-- .item -->
+            <div class="item">
+                <img src="assets/images/carros/SPACEFOX_branco.jpg" alt="">
+                <div class="content">
+                    <h2>Grupo D: Flex, Sedan, 4 portas, ar-condicionado, direção hidráulica, vidros elétricos.</h2>
+
+                    <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
         </div><!-- . owl-carousel -->
@@ -209,51 +207,35 @@
         <div class="container">
             <div class="owl-carousel owl-theme" id="owl-carros">
                 <div class="item">
-                    <img src="assets/images/vitrine.jpg" alt="">
+                    <img src="assets/images/carros/celta_branco.jpg" alt="">
                     <div class="content">
-                        <h2>Celta/Pálio ou Similar Motorização 1.0</h2>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                    <p><span>Dia:</span> R$ Valor</p>
-                        <p>Informações adicionais...</p>
+                        <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
 
-                        <a href="#anc-reserva" class="botao">Solicitar Reserva</a>
+                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                     </div><!-- content -->
                 </div><!-- .item -->
                 <div class="item">
-                    <img src="assets/images/vitrine2.jpg" alt="">
+                    <img src="assets/images/carros/gol_branco.jpg" alt="">
                     <div class="content">
-                        <h2>Parati/Palio Weekend ou Similar</h2>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p>Informações adicionais...</p>
+                        <h2>Grupo B: Flex, 4 portas, ar-condicionado, direção hidráulica, 1.0</h2>
 
-                        <a href="#anc-reserva" class="botao">Solicitar Reserva</a>
+                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                     </div><!-- content -->
                 </div><!-- .item -->
                 <div class="item">
-                    <img src="assets/images/vitrine.jpg" alt="">
+                    <img src="assets/images/carros/doblo_branco.jpg" alt="">
                     <div class="content">
-                        <h2>Celta/Pálio ou Similar Motorização 1.0</h2>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p>Informações adicionais...</p>
+                        <h2>Grupo G: 7 lugares, ar-condicionado, direção hidráulica, vidros elétricos, computador de bordo.</h2>
 
-                        <a href="#anc-reserva" class="botao">Solicitar Reserva</a>
+                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                     </div><!-- content -->
                 </div><!-- .item -->
                 <div class="item">
-                    <img src="assets/images/vitrine2.jpg" alt="">
+                    <img src="assets/images/carros/SPACEFOX_branco.jpg" alt="">
                     <div class="content">
-                        <h2>Parati/Palio Weekend ou Similar</h2>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p><span>Dia:</span> R$ Valor</p>
-                        <p>Informações adicionais...</p>
+                        <h2>Grupo D: Flex, Sedan, 4 portas, ar-condicionado, direção hidráulica, vidros elétricos.</h2>
 
-                        <a href="#anc-reserva" class="botao">Solicitar Reserva</a>
+                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                     </div><!-- content -->
                 </div><!-- .item -->
             </div><!-- . owl-carousel -->

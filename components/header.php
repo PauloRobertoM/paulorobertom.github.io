@@ -39,15 +39,15 @@
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
             </div><!-- navbar-header -->
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="menu">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
                     <li><a href="">Home</a></li>
                     <li><a href="">Quem Somos</a></li>
                     <li><a href="">Orçamento</a></li>
                     <li><a href="">Opcionais</a></li>
-                    <li><a href="">Dicas</a></li>
+                    <li><a href="">Dicas de Passeios</a></li>
                     <li><a href="">Fale Conosco</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
+                </ul><!-- .nav -->
+            </div><!-- .navbar-collapse -->
         </nav>
     </header>

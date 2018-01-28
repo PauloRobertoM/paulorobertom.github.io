@@ -23,26 +23,18 @@ body {
     width: 100%;
 }
 .botao {
-    font-size: 14px;
-    color: #e1e1e1;
-    text-transform: uppercase;
-    background: #fd0100;
-    border: 1px solid #fd0100;
-    padding: 8px 20px;
-    border-radius: 50px;
-    display: inline-block;
-    margin-top: 30px;
+    font-size: 38px;
+    color: #fd0100;
+    margin-left: 10px;
 }
 .botao:hover {
-    color: #fd0100;
-    background: transparent;
+    color: #807C7F;
 }
 
 .topo {
     width: 100%;
     height: 40px;
     background: #e1e1e1;
-    /* border-bottom: 1px solid #807C7F; */
 }
 .topo .redes-sociais {
     float: right;
@@ -90,94 +82,35 @@ header {
     z-index: 2;
 }
 
-.navbar-toggle {
-    display: block;
-}
-.navbar-collapse.collapse {
-    display: none!important;
-}
-.collapsing {
-    display: block!important;
-    background: #fff;
-    width: 100%;
-    text-align: right;
-    padding: 33px 100px 400px 0;
-    margin-top: -99px;
-    position: absolute;
-}
-.collapse.in {
-    display: block!important;
-    background: #fff;
-    width: 100%;
-    text-align: right;
-    padding: 33px 100px 400px 0;
-    margin-top: -99px;
-    position: absolute;
-}
-.navbar-nav>li {
-    float: none;
-}
-.navbar-nav {
-    float: right;
+.logo {
+    margin: 25px auto;
+    display: flex;
 }
 .navbar-default {
-    background-color: transparent;
-    border: none;
-    position: absolute;
-    z-index: 200;
-    width: 100%;
-    height: 120px;
     margin-bottom: 0;
-    text-align: center;
 }
-.navbar-header {
-    float: right;
+.collapse.navbar-collapse {
+    padding: 0;
 }
-.navbar-default .navbar-toggle {
-    border: none;
+ul.nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e1e1e1;
 }
-button.navbar-toggle.collapsed:before {
-    content: "\f0c9";
-    font-family: FontAwesome;
-    position: absolute;
-    top: 28px;
-    left: -20px;
-    font-size: 30px;
-    color: #fd0100;
-}
-button.navbar-toggle:before {
-    content: "\f00d";
-    font-family: FontAwesome;
-    position: absolute;
-    top: 28px;
-    left: -20px;
-    font-size: 30px;
-    color: #807C7F;
-    z-index: 2;
-}
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: transparent;
-}
-ul.menu>li {
-    margin-bottom: -5px;
-}
-ul.menu>li>a {
-    font-size: 36px;
-    font-weight: bold;
-    color: #807C7F;
+ul.nav>li>a {
+    font-size: 16px;
+    color: #807C7F!important;
     text-transform: uppercase;
+    padding: 10px 0;
 }
-ul.menu>li>a:hover,
-ul.menu>li>a.active {
-    color: #fd0100;
-}
-.logo {
-    margin-top: 21px;
+ul.nav>li>a:hover {
+    color: #fd0100!important;
+    font-weight: bold;
 }
 
-.reserva {
-    margin-top: 120px;
-}
 .barra-pesquisa {
     height: 110px;
     background: #fd0100;
@@ -302,18 +235,6 @@ ul.menu>li>a.active {
     text-align: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .barra-local {
     height: 80px;
     background: #fd0100;
@@ -325,46 +246,70 @@ ul.menu>li>a.active {
     z-index: 100;
 }
 
-
 .vitrine img {
-    width: 65%!important;
     height: 400px;
     object-fit: cover;
-    float: left;
 }
 .vitrine .content {
-    width: 35%;
-    height: 400px;
-    float: right;
+    width: 100%;
+    height: 50px;
     background: #e1e1e1;
-    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .vitrine .content h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #807C7F;
-    margin-bottom: 25px;
+    margin: 0;
 }
-.vitrine .content p {
-    font-size: 16px;
-    color: #807C7F;
-    margin-bottom: 5px;
+.vitrine .owl-nav {
+    padding: 0 40px;
 }
-.vitrine .content p span {
-    font-weight: bold;
+.vitrine .owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 42%;
+    margin-left: -30px;
+    display: block!important;
+    border: 0px solid black;
 }
+.vitrine .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 42%;
+    right: 0;
+    display: block!important;
+    border: 0px solid black;
+}
+.vitrine .owl-prev i,
+.vitrine .owl-next i {
+    transform: scale(5,5);
+    color: #fd0100;
+}
+.vitrine .owl-prev i:hover,
+.vitrine .owl-next i:hover {
+    color: #e1e1e1;
+}
+
 
 .carros {
     padding: 100px 0;
 }
 .carros img {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
+    border-bottom: 1px solid #e1e1e1;
 }
 .carros .item {
     border: 1px solid #e1e1e1;
-    height: 450px;
+    height: 100%;
+    min-height: 360px;
+    padding-bottom: 20px;
 }
 .carros .content {
     padding: 0 20px;
@@ -380,7 +325,6 @@ ul.menu>li>a.active {
     margin-bottom: 0;
 }
 .carros .botao {
-    color: #fff;
     display: table;
     margin: 30px auto 0;
 }
