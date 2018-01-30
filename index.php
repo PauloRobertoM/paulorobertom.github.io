@@ -3,7 +3,7 @@
     <section class="reserva" id="anc-reserva">
         <div class="barra-pesquisa">
             <form action="" id="formContato" accept-charset="utf-8" method="post">
-                <a href="#" data-toggle="modal" data-target="#myModal">Clique aqui e solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                <a href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
 
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -177,27 +177,21 @@
 	<section class="vitrine">
 		<div class="owl-carousel owl-theme" id="owl-vitrine">
             <div class="item">
-                <img src="assets/images/carros/celta_branco.jpg" alt="">
+                <img src="assets/images/carros_cinza/celta.jpg" alt="">
                 <div class="content">
-                	<h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
-
-                	<a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                	<a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoA">CELTA <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
             <div class="item">
-                <img src="assets/images/carros/gol_branco.jpg" alt="">
+                <img src="assets/images/carros_cinza/gol.jpg" alt="">
                 <div class="content">
-                    <h2>Grupo B: Flex, 4 portas, ar-condicionado, direção hidráulica, 1.0</h2>
-
-                    <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                    <a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoB">GOL <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
             <div class="item">
-                <img src="assets/images/carros/SPACEFOX_branco.jpg" alt="">
+                <img src="assets/images/carros_cinza/spacefox.jpg" alt="">
                 <div class="content">
-                    <h2>Grupo D: Flex, Sedan, 4 portas, ar-condicionado, direção hidráulica, vidros elétricos.</h2>
-
-                    <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                    <a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoD">SPACEFOX <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
         </div><!-- . owl-carousel -->
@@ -205,41 +199,150 @@
 
     <section class="carros">
         <div class="container">
-            <div class="owl-carousel owl-theme" id="owl-carros">
-                <div class="item">
-                    <img src="assets/images/carros/celta_branco.jpg" alt="">
-                    <div class="content">
-                        <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="item">
+                        <img src="assets/images/carros_cinza/celta.jpg" alt="">
+                        <div class="content">
+                            <h2>Grupo A</h2>
 
-                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                    </div><!-- content -->
-                </div><!-- .item -->
-                <div class="item">
-                    <img src="assets/images/carros/gol_branco.jpg" alt="">
-                    <div class="content">
-                        <h2>Grupo B: Flex, 4 portas, ar-condicionado, direção hidráulica, 1.0</h2>
+                            <a class="botao2" role="button" data-toggle="collapse" href="#GrupoA" aria-expanded="false" aria-controls="collapseExample">Selecionar Grupo <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
 
-                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                    </div><!-- content -->
-                </div><!-- .item -->
-                <div class="item">
-                    <img src="assets/images/carros/doblo_branco.jpg" alt="">
-                    <div class="content">
-                        <h2>Grupo G: 7 lugares, ar-condicionado, direção hidráulica, vidros elétricos, computador de bordo.</h2>
+                            <div class="collapse" id="GrupoA">
+                                <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+                                <a class="botao2" href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                            </div><!-- collapse -->
+                        </div><!-- content -->
+                    </div><!-- .item -->
+                </div><!-- md-4 -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="item">
+                        <img src="assets/images/carros_cinza/gol.jpg" alt="">
+                        <div class="content">
+                            <h2>Grupo B</h2>
 
-                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                    </div><!-- content -->
-                </div><!-- .item -->
-                <div class="item">
-                    <img src="assets/images/carros/SPACEFOX_branco.jpg" alt="">
-                    <div class="content">
-                        <h2>Grupo D: Flex, Sedan, 4 portas, ar-condicionado, direção hidráulica, vidros elétricos.</h2>
+                            <a class="botao2" role="button" data-toggle="collapse" href="#collapseExampleGrupoB" aria-expanded="false" aria-controls="collapseExample">Selecionar Grupo <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
 
-                        <a class="botao"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
-                    </div><!-- content -->
-                </div><!-- .item -->
-            </div><!-- . owl-carousel -->
+                            <div class="collapse" id="collapseExampleGrupoB">
+                                <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+                                <a class="botao2" href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                            </div><!-- collapse -->
+                        </div><!-- content -->
+                    </div><!-- .item -->
+                </div><!-- md-4 -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="item">
+                        <img src="assets/images/carros_cinza/uno.jpg" alt="">
+                        <div class="content">
+                            <h2>Grupo C</h2>
+
+                            <a class="botao2" role="button" data-toggle="collapse" href="#collapseExampleGrupoC" aria-expanded="false" aria-controls="collapseExample">Selecionar Grupo <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+
+                            <div class="collapse" id="collapseExampleGrupoC">
+                                <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+                                <a class="botao2" href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                            </div><!-- collapse -->
+                        </div><!-- content -->
+                    </div><!-- .item -->
+                </div><!-- md-4 -->
+            </div><!-- row -->
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="item">
+                        <img src="assets/images/carros_cinza/spacefox.jpg" alt="">
+                        <div class="content">
+                            <h2>Grupo D</h2>
+
+                            <a class="botao2" role="button" data-toggle="collapse" href="#collapseExampleGrupoD" aria-expanded="false" aria-controls="collapseExample">Selecionar Grupo <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+
+                            <div class="collapse" id="collapseExampleGrupoD">
+                                <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+                                <a class="botao2" href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                            </div><!-- collapse -->
+                        </div><!-- content -->
+                    </div><!-- .item -->
+                </div><!-- md-4 -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="item">
+                        <img src="assets/images/carros_cinza/san.jpg" alt="">
+                        <div class="content">
+                            <h2>Grupo E</h2>
+
+                            <a class="botao2" role="button" data-toggle="collapse" href="#collapseExampleGrupoE" aria-expanded="false" aria-controls="collapseExample">Selecionar Grupo <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+
+                            <div class="collapse" id="collapseExampleGrupoE">
+                                <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+                                <a class="botao2" href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                            </div><!-- collapse -->
+                        </div><!-- content -->
+                    </div><!-- .item -->
+                </div><!-- md-4 -->
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="item">
+                        <img src="assets/images/carros_cinza/saveiro.jpg" alt="">
+                        <div class="content">
+                            <h2>Grupo F</h2>
+
+                            <a class="botao2" role="button" data-toggle="collapse" href="#collapseExampleGrupoF" aria-expanded="false" aria-controls="collapseExample">Selecionar Grupo <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+
+                            <div class="collapse" id="collapseExampleGrupoF">
+                                <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+                                <a class="botao2" href="#" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                            </div><!-- collapse -->
+                        </div><!-- content -->
+                    </div><!-- .item -->
+                </div><!-- md-4 -->
+            </div><!-- row -->
         </div><!-- container -->
     </section><!-- carros -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModalGrupoA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Dados do Carro</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Grupo A: Flex, 4 portas, ar-condicionado, 1.0</h2>
+
+                    <a class="botao2" href="#" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                </div><!-- modal-body -->
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+
+    <div class="modal fade" id="myModalGrupoB" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Dados do Carro</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Grupo B: Flex, 4 portas, ar-condicionado, direção hidráulica, 1.0</h2>
+
+                    <a class="botao2" href="#" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                </div><!-- modal-body -->
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
+
+    <div class="modal fade" id="myModalGrupoD" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Dados do Carro</h4>
+                </div>
+                <div class="modal-body">
+                    <h2>Grupo D: Flex, Sedan, 4 portas, ar-condicionado, direção hidráulica, vidros elétricos</h2>
+
+                    <a class="botao2" href="#" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#myModal">Solicite sua <span>Reserva</span>/<span>Orçamento</span></a>
+                </div><!-- modal-body -->
+            </div><!-- modal-content -->
+        </div><!-- modal-dialog -->
+    </div><!-- modal -->
 
 <?php include 'components/footer.php'; ?>

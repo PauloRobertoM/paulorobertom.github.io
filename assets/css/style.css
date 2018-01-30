@@ -30,6 +30,20 @@ body {
 .botao:hover {
     color: #807C7F;
 }
+.botao2 {
+    font-size: 24px;
+    color: #fff;
+    background: #fd0100;
+    border: 1px solid #fd0100;
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: table;
+    margin: 0 auto;
+}
+.botao2:hover {
+    color: #fd0100;
+    background: transparent;
+}
 
 .topo {
     width: 100%;
@@ -123,8 +137,10 @@ ul.nav>li>a:hover {
     font-size: 25px;
     color: #e1e1e1;
     text-transform: uppercase;
+    background: #fd0100;
     border: 1px solid #e1e1e1;
     padding: 5px 10px;
+    border-radius: 10px;
 }
 .barra-pesquisa a span {
     font-weight: bold;
@@ -182,7 +198,7 @@ ul.nav>li>a:hover {
     text-align: center;
     background: transparent;
     border: 1px solid #fd0100;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 3px;
     width: 100%;
 }
@@ -207,7 +223,7 @@ ul.nav>li>a:hover {
     color: #fd0100;
     background: transparent;
     border: 1px solid #fd0100;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px;
     width: 45%;
     float: right;
@@ -225,6 +241,8 @@ ul.nav>li>a:hover {
 .modal .botao {
     font-size: 18px;
     padding: 5px 40px;
+    display: table-caption;
+    margin-top: 30px;
 }
 #datepairExample1,
 #datepairExample2 {
@@ -268,16 +286,16 @@ ul.nav>li>a:hover {
     padding: 0 40px;
 }
 .vitrine .owl-prev {
-    width: 15px;
+    width: 30px;
     height: 100px;
     position: absolute;
     top: 42%;
-    margin-left: -30px;
+    margin-left: -15px;
     display: block!important;
     border: 0px solid black;
 }
 .vitrine .owl-next {
-    width: 15px;
+    width: 30px;
     height: 100px;
     position: absolute;
     top: 42%;
@@ -287,7 +305,7 @@ ul.nav>li>a:hover {
 }
 .vitrine .owl-prev i,
 .vitrine .owl-next i {
-    transform: scale(5,5);
+    transform: scale(10,10);
     color: #fd0100;
 }
 .vitrine .owl-prev i:hover,
@@ -308,8 +326,9 @@ ul.nav>li>a:hover {
 .carros .item {
     border: 1px solid #e1e1e1;
     height: 100%;
-    min-height: 360px;
+    min-height: 300px;
     padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 .carros .content {
     padding: 0 20px;
@@ -318,13 +337,18 @@ ul.nav>li>a:hover {
     font-size: 18px;
     font-weight: bold;
     color: #807C7F;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .carros .content p {
     font-size: 14px;
     color: #807C7F;
     margin-bottom: 0;
 }
-.carros .botao {
+.carros .botao2 {
+    font-size: 18px;
+}
+/* .carros .botao {
     display: table;
     margin: 30px auto 0;
 }
@@ -357,7 +381,7 @@ ul.nav>li>a:hover {
 .carros .owl-prev i:hover,
 .carros .owl-next i:hover {
     color: #e1e1e1;
-}
+} */
 
 footer .topo {
     margin-top: 50px;
