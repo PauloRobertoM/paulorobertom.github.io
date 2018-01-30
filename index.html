@@ -43,8 +43,8 @@
                 <ul class="nav navbar-nav">
                     <li><a href="">Home</a></li>
                     <li><a href="">Quem Somos</a></li>
-                    <li><a href="">Orçamento</a></li>
-                    <li><a href="">Opcionais</a></li>
+                    <!-- <li><a href="">Orçamento</a></li> -->
+                    <!-- <li><a href="">Opcionais</a></li> -->
                     <li><a href="">Dicas de Passeios</a></li>
                     <li><a href="">Fale Conosco</a></li>
                 </ul><!-- .nav -->
