@@ -24,7 +24,7 @@
         <div class="topo animated bounceInRight">
             <div class="container">
                 <div class="centro">
-                    <p><i class="fa fa-whatsapp" aria-hidden="true"></i> 84 98888-8888</p>
+                    <p><i class="fa fa-whatsapp" aria-hidden="true"></i> Rota: (84) 99121-6717 | Gerência: (84) 99118-0660</p>
                 </div><!-- centro -->
                 <!-- <div class="redes-sociais">
                     <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -36,10 +36,15 @@
         <nav class="navbar navbar-default">
             <a href=""><img src="assets/images/logo-rota.png" class="logo"></a>
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"></button>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div><!-- navbar-header -->
 
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a href="">Home</a></li>
                     <li><a href="">Quem Somos</a></li>

@@ -177,32 +177,45 @@
 	<section class="vitrine">
 		<div class="owl-carousel owl-theme" id="owl-vitrine">
             <div class="item">
-                <img src="assets/images/carros_cinza/celta.jpg" alt="">
+                <img src="assets/images/carros_cinza/celta_4portas.jpg" alt="">
                 <div class="content">
                 	<a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoA">CELTA <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
             <div class="item">
-                <img src="assets/images/carros_cinza/gol.jpg" alt="">
+                <img src="assets/images/carros_cinza/gol_4portas.jpg" alt="">
                 <div class="content">
                     <a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoB">GOL <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
             <div class="item">
-                <img src="assets/images/carros_cinza/spacefox.jpg" alt="">
+                <img src="assets/images/carros_cinza/uno.jpg" alt="">
                 <div class="content">
-                    <a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoD">SPACEFOX <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                    <a class="botao" href="#" data-toggle="modal" data-target="#myModalGrupoD">UNO <i class="fa fa-plus-circle" aria-hidden="true"></i></a>
                 </div><!-- content -->
             </div><!-- .item -->
         </div><!-- . owl-carousel -->
 	</section><!-- vitrine -->
 
+    <section class="quem-somos">
+        <div class="item">
+            <img src="assets/images/sobre.jpg" alt="">
+        </div><!-- item -->
+        <div class="item item-conteudo">
+            <h2 class="titulo-geral">QUEM SOMOS</h2>
+            <p>Nascemos em 2003 com um objetivo: ser diferentes! Conseguimos, e é assim que permanecemos até hoje. Preferimos as soluções que ofereçam ao nosso público a melhor relação entre inovação e praticidade.</p>
+            <p>Descomplicação é um de nossos principais valores, por isso garantimos a entrega de veículos mais fácil e rápida da cidade, sem falar da flexibilidade de recebimentos e custo benefício, elementos que juntos garantem nossa qualidade a máxima satisfação de nossos clientes.</p>
+            <p>Somos uma empresa de família, logo estamos muito preparados para atender a sua. Não deixe de entrar em contato e fazer seu orçamento, os preços em nossa página principal são apenas uma convite para uma boa conversa!</p>
+        </div><!-- item -->
+    </section><!-- quem-somos -->
+
     <section class="carros">
         <div class="container">
+            <h2 class="titulo-geral">NOSSOS CARROS</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="item">
-                        <img src="assets/images/carros_cinza/celta.jpg" alt="">
+                        <img src="assets/images/carros_cinza/celta_4portas.jpg" alt="">
                         <div class="content">
                             <h2>Grupo A</h2>
 
@@ -217,7 +230,7 @@
                 </div><!-- md-4 -->
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="item">
-                        <img src="assets/images/carros_cinza/gol.jpg" alt="">
+                        <img src="assets/images/carros_cinza/gol_4portas.jpg" alt="">
                         <div class="content">
                             <h2>Grupo B</h2>
 
@@ -295,6 +308,27 @@
             </div><!-- row -->
         </div><!-- container -->
     </section><!-- carros -->
+
+    <section class="contato">
+        <div class="container">
+            <h2 class="titulo-geral">CONTATO</h2>
+            <form>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="NOME" value="" />
+                <input type="text" name="assunto" id="assunto" class="form-control" placeholder="ASSUNTO" value="" />
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" name="email" id="email" class="form-control" placeholder="E-MAIL" value="" />
+                    </div><!-- .md-6 -->
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" name="telefone" id="telefone" class="form-control" placeholder="TELEFONE" value="" />
+                    </div><!-- .md-6 -->
+                </div><!-- .row -->
+                <textarea name="mensagem" id="mensagem" class="form-control" placeholder="MENSAGEM"></textarea>
+
+                <button>enviar</button>
+            </form>
+        </div><!-- container -->
+    </section><!-- contato -->
 
     <!-- Modal -->
     <div class="modal fade" id="myModalGrupoA" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">

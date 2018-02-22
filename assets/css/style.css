@@ -44,6 +44,11 @@ body {
     color: #fd0100;
     background: transparent;
 }
+.titulo-geral {
+    font-size: 30px;
+    color: #807C7F;
+    text-transform: uppercase;
+}
 
 .topo {
     width: 100%;
@@ -336,9 +341,13 @@ ul.nav>li>a:hover {
     background: #fd0100;
 }
 
-
 .carros {
-    padding: 100px 0;
+    background: #f7f7f7;
+    padding: 40px 0;
+}
+.carros h2 {
+    text-align: center;
+    margin-bottom: 30px;
 }
 .carros img {
     width: 100%;
@@ -371,40 +380,6 @@ ul.nav>li>a:hover {
 .carros .botao2 {
     font-size: 18px;
 }
-/* .carros .botao {
-    display: table;
-    margin: 30px auto 0;
-}
-.carros .owl-carousel {
-    padding: 0 40px;
-}
-.carros .owl-prev {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 42%;
-    margin-left: -30px;
-    display: block!important;
-    border: 0px solid black;
-}
-.carros .owl-next {
-    width: 15px;
-    height: 100px;
-    position: absolute;
-    top: 42%;
-    right: 0;
-    display: block!important;
-    border: 0px solid black;
-}
-.carros .owl-prev i,
-.carros .owl-next i {
-    transform: scale(5,5);
-    color: #fd0100;
-}
-.carros .owl-prev i:hover,
-.carros .owl-next i:hover {
-    color: #e1e1e1;
-} */
 
 footer .topo {
     margin-top: 50px;
@@ -423,28 +398,99 @@ footer .centro p .fa {
     top: 0;
 }
 
+.quem-somos {
+    display: flex;
+    align-items: center;
+    margin-top: -26px;
+}
+.quem-somos .item {
+    width: 50%;
+    float: left;
+}
+.quem-somos img {
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+}
+.item-conteudo {
+    padding: 0 50px;
+}
+.quem-somos h2 {
+    margin-bottom: 30px;
+}
+.quem-somos p {
+    font-size: 16px;
+    color: #6e6c6b;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.contato {
+    padding: 50px 100px;
+    margin-bottom: -50px;
+    border-bottom: 1px solid #807C7F;
+}
+.contato h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contato input {
+    height: 45px!important;
+    border: 1px solid #807C7F!important;
+    border-radius: 0!important;
+    margin-bottom: 30px;
+    background: transparent;
+    border-radius: 10px!important;
+}
+.contato textarea {
+    height: 200px;
+    border-radius: 0!important;
+    border: 1px solid #807C7F!important;
+    background: transparent;
+    border-radius: 10px!important;
+}
+.contato button {
+    font-size: 16px;
+    color: #fff;
+    background: #fd0100;
+    text-transform: uppercase;
+    border: 1px solid #fd0100;
+    padding: 8px 30px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 20px;
+}
+.contato button:hover {
+    color: #fd0100;
+    background: transparent;
+}
+.contato ::-webkit-input-placeholder {
+   color: #807C7F;
+}
+.contato :-moz-placeholder {
+   color: #807C7F;
+}
+.contato ::-moz-placeholder {
+   color: #807C7F;
+}
+.contato :-ms-input-placeholder {
+   color: #807C7F;
+}
+
 /* --- MOBILE --- */
 @media (max-width: 767px) {
     img.logo {
-        width: 180px;
+        width: 120px;
         float: left;
         margin-left: 10px;
     }
-    .navbar-brand-centered {
-        left: 28%;
-        width: 110px;
-    }
-    .navbar-toggle {
-        padding: 0;
-        border-radius: 50px;
-        margin-top: 0;
-        position: absolute;
-        right: 0;
-    }
     .navbar-default {
         display: block;
-        height: 120px;
+        height: 110px;
         padding-top: 10px;
+    }
+    .navbar-default .navbar-toggle {
+        top: 20px;
     }
     .navbar-header {
         height: 90px;
@@ -452,11 +498,11 @@ footer .centro p .fa {
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
         z-index: 300;
-        background: #fff;
+        background: #e1e1e1;
         position: relative;
-        top: 15px;
-        min-height: 390px;
-        padding: 10px 30px;
+        top: -10px;
+        min-height: 250px;
+        width: 100%;
     }
     .navbar-default .navbar-toggle:focus,
     .navbar-default .navbar-toggle:hover {
@@ -487,53 +533,32 @@ footer .centro p .fa {
         padding: 17px 10px!important;
     }
     .vitrine img {
-        width: 100%!important;
         height: 200px;
     }
-    .vitrine .content {
-        width: 100%;
-        height: 300px;
-        padding: 0 15px;
-    }
-    .vitrine .content h2 {
-        font-size: 20px;
-        margin-bottom: 15px;
-    }
-    .vitrine .content p {
-        font-size: 15px;
-        margin-bottom: 0;
-    }
-    .botao {
-        font-size: 15px;
-        padding: 5px 40px;
-        margin-top: 20px;
-    }
-    .carros .owl-carousel {
-        padding: 0;
-    }
-    .carros .owl-nav {
+    .vitrine .owl-nav {
         display: none;
     }
-    .barra-pesquisa {
-        min-height: 110px;
-        height: 100%;
+/*     .vitrine .owl-nav {
+        padding: 0 20px;
     }
-    .barra-pesquisa form {
-        min-height: 110px;
-        height: 100%;
-        display: block;
-        padding-bottom: 20px;
+    .vitrine .owl-prev {
+        top: 28%;
+        margin-left: -5px;
     }
-    .barra-pesquisa .item {
-        width: 100%;
-        float: none;
-        display: block;
-        border-right: none;
-        border-bottom: 1px solid #fff;
-        padding-top: 17px;
+    .vitrine .owl-next {
+        top: 28%;
+        right: -10px;
     }
-    .barra-pesquisa .item:last-child {
-        border-bottom: none;
+    .vitrine .owl-prev i,
+    .vitrine .owl-next i {
+        transform: scale(3,3);
+        color: #fd0100;
+    } */
+    .botao {
+        font-size: 30px;
+    }
+    .barra-pesquisa a {
+        font-size: 17px;
     }
     #barra-local1 {
         margin-top: 221px;
@@ -569,15 +594,35 @@ footer .centro p .fa {
     .barra-pesquisa .item button {
         margin-top: 5px;
     }
+    .quem-somos {
+        display: block;
+    }
+    .quem-somos .item {
+        width: 100%;
+        float: none;
+    }
+    .quem-somos img {
+        height: 200px;
+    }
+    .item-conteudo {
+        padding: 0 15px;
+        margin-top: 15px;
+    }
+    .centro p {
+        font-size: 12px;
+    }
+    .centro p .fa {
+        font-size: 17px;
+        top: 2px;
+    }
+    .contato {
+        padding: 50px 0px;
+    }
 }
 @media (min-width: 768px) and (max-width: 830px) {
     .barra-pesquisa select {
         font-size: 14px;
         padding: 5px 0;
-    }
-    .botao {
-        font-size: 13px;
-        padding: 8px 10px;
     }
 }
 @media (min-width: 768px) and (max-width: 980px) {
