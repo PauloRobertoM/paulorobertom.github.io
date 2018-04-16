@@ -37,6 +37,13 @@
             }
         }
     });
+    var $doc = $('html, body');
+    $('.nav li a').click(function() {
+        $doc.animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 1500);
+        return false;
+    });
     $(document).ready(function(){
         $('#myTooltip').tooltip();
         $('#myTooltip2').tooltip();
@@ -50,88 +57,60 @@
         'autoclose': true
     });
     $( "#proximo2" ).click(function() {
-        $( "#item1" ).fadeOut( "slow", function() {
-
-        });
-        $( "#item2" ).fadeIn( "slow", function() {
-            
-        });
-        $( "#item3" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item4" ).fadeOut( "slow", function() {
-            
-        });
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeIn( "slow", function() {});
+        $( "#item3" ).fadeOut( "slow", function() {});
+        $( "#item4" ).fadeOut( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
     });
     $( "#proximo3" ).click(function() {
-        $( "#item1" ).fadeOut( "slow", function() {
-
-        });
-        $( "#item2" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item3" ).fadeIn( "slow", function() {
-            
-        });
-        $( "#item4" ).fadeOut( "slow", function() {
-            
-        });
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeOut( "slow", function() {});
+        $( "#item3" ).fadeIn( "slow", function() {});
+        $( "#item4" ).fadeOut( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
     });
     $( "#proximo4" ).click(function() {
-        $( "#item1" ).fadeOut( "slow", function() {
-
-        });
-        $( "#item2" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item3" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item4" ).fadeIn( "slow", function() {
-            
-        });
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeOut( "slow", function() {});
+        $( "#item3" ).fadeOut( "slow", function() {});
+        $( "#item4" ).fadeIn( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
+    });
+    $( "#proximo5" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeOut( "slow", function() {});
+        $( "#item3" ).fadeOut( "slow", function() {});
+        $( "#item4" ).fadeOut( "slow", function() {});
+        $( "#item5" ).fadeIn( "slow", function() {});
     });
 
+    $( "#anterior4" ).click(function() {
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeOut( "slow", function() {});
+        $( "#item3" ).fadeOut( "slow", function() {});
+        $( "#item4" ).fadeIn( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
+    });
     $( "#anterior3" ).click(function() {
-        $( "#item1" ).fadeOut( "slow", function() {
-
-        });
-        $( "#item2" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item3" ).fadeIn( "slow", function() {
-            
-        });
-        $( "#item4" ).fadeOut( "slow", function() {
-            
-        });
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeOut( "slow", function() {});
+        $( "#item3" ).fadeIn( "slow", function() {});
+        $( "#item4" ).fadeOut( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
     });
     $( "#anterior2" ).click(function() {
-        $( "#item1" ).fadeOut( "slow", function() {
-
-        });
-        $( "#item2" ).fadeIn( "slow", function() {
-            
-        });
-        $( "#item3" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item4" ).fadeOut( "slow", function() {
-            
-        });
+        $( "#item1" ).fadeOut( "slow", function() {});
+        $( "#item2" ).fadeIn( "slow", function() {});
+        $( "#item3" ).fadeOut( "slow", function() {});
+        $( "#item4" ).fadeOut( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
     });
     $( "#anterior1" ).click(function() {
-        $( "#item1" ).fadeIn( "slow", function() {
-
-        });
-        $( "#item2" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item3" ).fadeOut( "slow", function() {
-            
-        });
-        $( "#item4" ).fadeOut( "slow", function() {
-            
-        });
+        $( "#item1" ).fadeIn( "slow", function() {});
+        $( "#item2" ).fadeOut( "slow", function() {});
+        $( "#item3" ).fadeOut( "slow", function() {});
+        $( "#item4" ).fadeOut( "slow", function() {});
+        $( "#item5" ).fadeOut( "slow", function() {});
     });
 })(jQuery, window);

@@ -2,7 +2,7 @@
 			<div class="topo">
 	            <div class="container">
 	                <div class="centro">
-	                    <p>© Copyright Rota Aluguel. Todos os direitos reservados. | <a href="https://api.whatsapp.com/send?phone=5584991216717" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i> +55 (84) 99121-6717</a></p>
+	                    <p>© Copyright Rota Aluguel. Todos os direitos reservados. | <i class="fa fa-whatsapp" aria-hidden="true"></i> 84 98888-8888</p>
 	                </div><!-- centro -->
 	            </div><!-- .container -->
 	        </div><!-- topo -->

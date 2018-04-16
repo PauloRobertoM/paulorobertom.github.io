@@ -24,7 +24,7 @@
         <div class="topo animated bounceInRight">
             <div class="container">
                 <div class="centro">
-                    <p><i class="fa fa-whatsapp" aria-hidden="true"></i> <a href="https://api.whatsapp.com/send?phone=5584991216717" target="_blank" class="hvr-underline-from-center">Rota: +55 (84) 99121-6717</a> | <a href="https://api.whatsapp.com/send?phone=5584991180660" target="_blank" class="hvr-underline-from-center">Gerência: +55 (84) 99118-0660</a> | Atuamos em NATAL/RN</p>
+                    <p><i class="fa fa-whatsapp" aria-hidden="true"></i> Rota: (84) 99121-6717 | Gerência: (84) 99118-0660</p>
                 </div><!-- centro -->
                 <!-- <div class="redes-sociais">
                     <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -34,10 +34,7 @@
         </div><!-- topo -->
         
         <nav class="navbar navbar-default">
-            <a href="">
-                <img src="assets/images/logo-rota.png" class="logo">
-                <p class="texto-logo">O aluguel de carros mais fácil e rápido de Natal</p>
-            </a>
+            <a href=""><img src="assets/images/logo-rota.png" class="logo"></a>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
@@ -49,12 +46,12 @@
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#anc-quem-somos">Quem Somos</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Quem Somos</a></li>
                     <!-- <li><a href="">Orçamento</a></li> -->
                     <!-- <li><a href="">Opcionais</a></li> -->
-                    <li><a href="#anc-nossos-carros">Nossos Carros</a></li>
-                    <li><a href="#anc-contato">Fale Conosco</a></li>
+                    <li><a href="">Dicas de Passeios</a></li>
+                    <li><a href="">Fale Conosco</a></li>
                 </ul><!-- .nav -->
             </div><!-- .navbar-collapse -->
         </nav>
