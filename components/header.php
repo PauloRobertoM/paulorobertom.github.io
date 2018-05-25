@@ -5,57 +5,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Rota Car Aluguel</title>
+    <title>EuPasseando</title>
 
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet">
 
     <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' />
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel='stylesheet' href='assets/css/jquery.timepicker.min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/hover-min.css' type='text/css' />
     <link rel='stylesheet' href='assets/css/owl.carousel.min.css' type='text/css' />
-    <link rel='stylesheet' href='assets/css/animate.css' type='text/css' />
+    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
     <link rel='stylesheet' href='assets/css/style.css' type='text/css' />
 </head>
 
 <body>
     <header>
-        <div class="topo animated bounceInRight">
-            <div class="container">
-                <div class="centro">
-                    <p><i class="fa fa-whatsapp" aria-hidden="true"></i> <a href="https://api.whatsapp.com/send?phone=5584991216717" target="_blank" class="hvr-underline-from-center">Rota: +55 (84) 99121-6717</a> | <a href="https://api.whatsapp.com/send?phone=5584991180660" target="_blank" class="hvr-underline-from-center">Gerência: +55 (84) 99118-0660</a> | Atuamos em NATAL/RN</p>
-                </div><!-- centro -->
-                <!-- <div class="redes-sociais">
-                    <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                </div> --><!-- .redes-sociais -->
-            </div><!-- .container -->
-        </div><!-- topo -->
-        
-        <nav class="navbar navbar-default">
-            <a href="">
-                <img src="assets/images/logo-rota.png" class="logo">
-                <p class="texto-logo">O aluguel de carros mais fácil e rápido de Natal</p>
-            </a>
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div><!-- navbar-header -->
+        <div class="nav">
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.php"><img class="logo" src="assets/images/logo.png" alt="Logo" /></a>
+                    </div><!-- .navbar-header -->
 
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="#anc-quem-somos">Quem Somos</a></li>
-                    <!-- <li><a href="">Orçamento</a></li> -->
-                    <!-- <li><a href="">Opcionais</a></li> -->
-                    <li><a href="#anc-nossos-carros">Nossos Carros</a></li>
-                    <li><a href="#anc-contato">Fale Conosco</a></li>
-                </ul><!-- .nav -->
-            </div><!-- .navbar-collapse -->
-        </nav>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="">PASSE DO DIA</a></li>
+                            <li><a href="viaje-com-a-gente.php">VIAJE COM A GENTE</a></li>
+                            <li><a href="duvidas-frequentes.php">DÚVIDAS FREQUENTES</a></li>
+                            <li class="entrar"><a href=""><img src="assets/images/sign-in.png"/> ENTRAR</a></li>
+                        </ul><!-- .nav -->
+                    </div><!-- .navbar-collapse -->
+                </div><!-- container -->
+            </nav><!-- .navbar -->
+        </div><!-- .nav -->
     </header>
