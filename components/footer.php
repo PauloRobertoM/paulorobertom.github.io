@@ -32,7 +32,7 @@
 		</section><!-- fale-conosco -->
 
         <footer>
-			<p>&copy - Todos os direitos reservados - 2018</p>
+			<p>Todos os direitos reservados - 2018</p>
         </footer>
 
         <!-- Modal -->
